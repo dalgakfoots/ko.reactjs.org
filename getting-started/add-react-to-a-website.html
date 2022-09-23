@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add-react-to-a-website</title>
+</head>
+<body>
+<header>
+    <h1>Hello! How Are You?</h1>
+</header>
+<article>
+    <div data-target="content">
+        <p>It's Nice Today. Isn't it?</p>
+        <!--비어있는 div 태그를 추가한다. 이 곳에 React 를 통해 원하는 내용을 표시할 것이다.-->
+        <div id="like_button_container"></div>
+        <p>🔝 IT IS THE REACT COMPONENT!</p>
+    </div>
+</article>
+<!--React 실행.-->
+<!-- TODO 사이트 배포 시에는 'development.js' 를 'production.min.js' 로 변경해야 한다.-->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<script src="./js/like_button.js"></script>
+</body>
+</html>
